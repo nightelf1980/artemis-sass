@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <title>Artemis | Cactus y Suculentas</title>
+
+</head>
+<body>
+
+    <!--NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><img src="./assets/img/artemis-logo-color.png" alt="logo" width="100px">Artemis</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./views/suculentas.html">Suculentas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./views/cactus.html">Cactus</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Tierra y sustratos</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Maceteros</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--CARRUSEL DE IMÁGENES -->
+    <div class="container-sm container-md">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/img/suc01.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/img/suc02.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/img/suc03.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container-sm container-md">
+        <div class="card-group">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Suculentas</h5>
+                    <p class="card-text">La palabra "Suculenta" viene del latín succulentus, que significa: "jugoso" o "sustancioso"</p>
+                     <a href="./views/suculentas.html" class="btn btn-secondary">Saber más</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Cactus</h5>
+                    <p class="card-text">Las cactáceas, son conocidas en conjunto como cactos, cactus o cacti</p>
+                    <a href="./views/cactus.html" class="btn btn-secondary">Saber más</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/card3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Feng Shui</h5>
+                    <p class="card-text">De acuerdo con la filosofía del Feng Shui, las suculentas y cactus ayudan a equilibrar la energía y son purificadores de energía negativa</p>
+                    <a href="#" class="btn btn-secondary">Saber más</a>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+    <!--FOOTER -->
+    <footer class="bd-footer py-5 mt-2 bg-light">
+        <div class="container py-2">
+            <div class="row">
+                <div class="col-lg-2 mb-2">
+                    <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" aria-label="Artemis 2022 &copy">
+                        <img src="./assets/img/artemis-logo-bw.png" width="40" alt=""><span class="fs-5">Artemis 2022 &copy</span>
+                    </a>
+                </div>
+            </div>
+    </div>
+    </footer>
+
+
+
+    <!--CÓDIGO JS -->
+    <script src="./assets/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
+</body>
+</html>

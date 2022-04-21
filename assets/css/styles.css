@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+    margin-bottom: 30px;
+}
+
+.card-group{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px 30px 0px;
+}
+
+.card{
+    margin:30px;
+}
+
+.thumbnail { 
+    position: relative; 
+} 
+
+.caption { 
+    position: absolute; 
+}
+
+h2{
+    margin: 30px 0px;
+}
+
+.text{
+    width: 100%;
+    text-align: justify;
+}
