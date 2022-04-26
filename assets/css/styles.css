@@ -5,6 +5,17 @@
 
 .navbar{
     margin-bottom: 30px;
+    position: sticky;
+    top:0;
+    z-index: 100;
+    font-weight: 450;
+    text-transform: uppercase;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0px;
 }
 
 .card-group{
@@ -14,7 +25,8 @@
 }
 
 .card{
-    margin:30px;
+    margin:10px;
+
 }
 
 .thumbnail { 
@@ -32,4 +44,20 @@ h2{
 .text{
     width: 100%;
     text-align: justify;
+}
+
+.redes-sociales a{
+    margin: 5px;
+    
+}
+
+.hashtag{
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    background-image: url(../img/footer-background.png);
+    background-position: center center;
+    background-size: cover;
 }

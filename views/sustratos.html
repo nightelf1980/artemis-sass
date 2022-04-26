@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../assets/css/styles.css">
     <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
     <title>Artemis | Cactus y Suculentas</title>
@@ -14,7 +16,7 @@
     <!--NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html"><img src="../assets/img/artemis-logo-color.png" alt="logo" width="100px">Artemis</a>
+            <a class="navbar-brand" href="../index.html"><img class="animate__animated animate__fadeIn" src="../assets/img/artemis-logo-color.png" alt="logo" width="100px">Artemis</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
 
@@ -29,7 +31,7 @@
                         <a class="nav-link" href="./suculentas.html">Suculentas</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos a la venta</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="./productos.html">Cactus y Suculentas</a></li>
                             <li><hr class="dropdown-divider"></li>
@@ -47,62 +49,93 @@
 
     <!--MAIN -->
     <div class="container">
-        <!--ROW-1 -->
         <div class="row">
-            <div class="col-sm-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="../assets/img/sustratos.jpg" class="card-img-top" alt="Sustrato 7L">
-                    <div class="card-body">
-                        <h5 class="card-title">Sustrato para suculentas</h5>
-                        <p class="card-text">Formato 7L</p>
-                        <p class="card-text"><img src="../assets/img/tierra.png" width="20px" alt=""> Tierra negra y compost</p>
-                        <p class="card-text"><img src="../assets/img/turba.png" width="20px" alt=""> Turba</p>
-                        <p class="card-text"><img src="../assets/img/perlita.png" width="20px" alt=""> Perlita</p>
-                        <p class="card-text"><img src="../assets/img/arena.png" width="20px" alt=""> Arena</p>
-                        <a href="#" class="btn btn-secondary">Comprar</a>
+            <h2>Sustrato para Cactus y Suculentas</h2>
+            <p class="text">Las suculentas crecen en suelos de bajos nutrientes, pero con muy buen drenaje. Por eso es muy importante reproducir bien las características de origen, para que puedan crecer sanas, lindas y fuertes.</p>
+            <p class="text">El sustrato es la superficie en donde nuestras suculentas vivirán y se desarrollarán. Esta superficie, debe estar compuesta de materiales orgánicos </p>
+            <p class="text">Lo ideal es usar siempre mayor proporción de elementos inorgánicos, así tendremos como resultado una mezcla mucho más aireada, ligera, con buen drenaje y no muy alta en nutrientes.</p>
+            <h3>Componentes</h3>
+            
+            <ul>
+                <li class="text">Tierra negra y compost: Ayuda a evitar la compactación en las macetas.</li>
+                <li class="text">Turba: Nos ayudará con el drenaje</li>
+                <li class="text">Perlita: Ayudará a respirar a las raíces y a mantener el sustrato más suelto y ligero.</li>
+                <li class="text">Arena: Ayudará con la porosidad, drenaje y la aireación del suelo.</li>
+            </ul>
+        </div>
+
+        <div class="row">
+
+                <div class="card-group d-flex justify-content-center">
+                    <div class="card" style="width: 80%">
+                        <img src="../assets/img/sustratos.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title ">Sustrato para suculentas</h5>
+                            <p class="card-text">Formato 7L</p>
+                            <p class="card-text"><img src="../assets/img/tierra.png" width="15px" alt=""> 50% Tierra negra y compost</p>
+                            <p class="card-text"><img src="../assets/img/turba.png" width="15px" alt=""> 30% Turba</p>
+                            <p class="card-text"><img src="../assets/img/perlita.png" width="15px" alt=""> 15% Perlita</p>
+                            <p class="card-text"><img src="../assets/img/arena.png" width="15px" alt=""> 5% Arena</p>
+                            <a href="#" class="btn btn-secondary">Comprar</a>
+                        </div>    
+                    </div>
+            
+                    <div class="card" style="width: 80%">
+                        <img src="../assets/img/sustratos.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sustrato para suculentas</h5>
+                            <p class="card-text">Formato 15L</p>
+                            <p class="card-text"><img src="../assets/img/tierra.png" width="15px" alt=""> 50% Tierra negra y compost</p>
+                            <p class="card-text"><img src="../assets/img/turba.png" width="15px" alt=""> 30% Turba</p>
+                            <p class="card-text"><img src="../assets/img/perlita.png" width="15px" alt=""> 15% Perlita</p>
+                            <p class="card-text"><img src="../assets/img/arena.png" width="15px" alt=""> 5% Arena</p>
+                            <a href="#" class="btn btn-secondary">Comprar</a>
+                        </div>   
+                    </div>
+            
+                    <div class="card" style="width: 80%">
+                        <img src="../assets/img/sustratos.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sustrato para suculentas</h5>
+                            <p class="card-text">Formato 25L</p>
+                            <p class="card-text"><img src="../assets/img/tierra.png" width="15px" alt=""> 50% Tierra negra y compost</p>
+                            <p class="card-text"><img src="../assets/img/turba.png" width="15px" alt=""> 30% Turba</p>
+                            <p class="card-text"><img src="../assets/img/perlita.png" width="15px" alt=""> 15% Perlita</p>
+                            <p class="card-text"><img src="../assets/img/arena.png" width="15px" alt=""> 5% Arena</p>
+                            <a href="#" class="btn btn-secondary">Comprar</a>
+                        </div>    
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="../assets/img/sustratos.jpg" class="card-img-top" alt="Sustrato 15L">
-                    <div class="card-body">
-                        <h5 class="card-title">Sustrato para suculentas</h5>
-                        <p class="card-text">Formato 15L</p>
-                        <p class="card-text"><img src="../assets/img/tierra.png" width="20px" alt=""> Tierra negra y compost</p>
-                        <p class="card-text"><img src="../assets/img/turba.png" width="20px" alt=""> Turba</p>
-                        <p class="card-text"><img src="../assets/img/perlita.png" width="20px" alt=""> Perlita</p>
-                        <p class="card-text"><img src="../assets/img/arena.png" width="20px" alt=""> Arena</p>
-                        <a href="#" class="btn btn-secondary">Comprar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="../assets/img/sustratos.jpg" class="card-img-top" alt="Sustrato 25L">
-                    <div class="card-body">
-                        <h5 class="card-title">Sustrato para suculentas</h5>
-                        <p class="card-text">Formato 25L</p>
-                        <p class="card-text"><img src="../assets/img/tierra.png" width="20px" alt=""> Tierra negra y compost</p>
-                        <p class="card-text"><img src="../assets/img/turba.png" width="20px" alt=""> Turba</p>
-                        <p class="card-text"><img src="../assets/img/perlita.png" width="20px" alt=""> Perlita</p>
-                        <p class="card-text"><img src="../assets/img/arena.png" width="20px" alt=""> Arena</p>
-                        <a href="#" class="btn btn-secondary">Comprar</a>
-                    </div>
-                </div>
-            </div>
         </div>
 
     </div>
 
     <!--FOOTER -->
     <footer class="bd-footer py-5 mt-2 bg-light">
-        <div class="container py-2">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-2 mb-2">
+                <div class="col-lg-4 col-md-4 col-sm-5 col-xs-7 mb-2">
                     <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" aria-label="Artemis 2022 &copy">
-                        <img src="../assets/img/artemis-logo-bw.png" width="40" alt=""><span class="fs-5">Artemis 2022 &copy</span>
+                        <img src="../assets/img/artemis-logo-color.png" width="40" alt=""><span class="fs-5">ARTEMIS 2022 &copy</span>
                     </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-2 mb-2">
+                    <div class="redes-sociales">
+                        <a href="https://www.facebook.com" target="_blank"><img class="animate__animated animate__backInUp" src="../assets/img/rrss/facebook.svg" width="25" alt=""></a>
+                        <a href="https://www.instagram.com" target="_blank"><img class="animate__animated animate__backInUp" src="../assets/img/rrss/instagram.svg" width="25" alt=""></a>
+                        <a href="https://www.pinterest.com" target="_blank"><img class="animate__animated animate__backInUp" src="../assets/img/rrss/pinterest.svg" width="25" alt=""></a>
+                        <a href="https://www.youtube.com" target="_blank"><img class="animate__animated animate__backInUp" src="../assets/img/rrss/youtube.svg" width="25" alt=""></a>
+                    </div>    
+                </div>
+                <div class="col">
+                    <div class="hashtag d-flex">
+                        <div class="hastag">
+                            <i class="fa-solid fa-hashtag animate__animated animate__bounceInLeft m-2">Artemis</i><i class="fa-solid fa-seedling"></i>
+                        </div>
+                        <div class="hastag">
+                            <i class="fa-solid fa-hashtag animate__animated animate__bounceInRight m-2">Plantlover</i>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
