@@ -30,10 +30,6 @@ h1{
     margin: 20px 0px;
 }
 
-h2{
-    text-transform: uppercase;
-}
-
 .card-group{
     display: flex;
     flex-wrap: wrap;
