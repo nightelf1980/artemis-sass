@@ -6,6 +6,7 @@
 :root{
     --color1: #30C9B3;
     --color2: #000000;
+    --color3: #ffffff;
 }
 
 .navbar{
@@ -27,6 +28,10 @@ h1{
     text-align: center;
     text-transform: uppercase;
     margin: 20px 0px;
+}
+
+h2{
+    text-transform: uppercase;
 }
 
 .card-group{
