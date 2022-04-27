@@ -3,6 +3,11 @@
     padding:0;
 }
 
+:root{
+    --color1: #30C9B3;
+    --color2: #000000;
+}
+
 .navbar{
     margin-bottom: 30px;
     position: sticky;
@@ -10,6 +15,12 @@
     z-index: 100;
     font-weight: 450;
     text-transform: uppercase;
+}
+
+.nav-item a:hover{
+    background-color: var(--color1);
+    color: var(--color2);
+    transition: 0.2s;
 }
 
 h1{
