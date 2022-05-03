@@ -1,0 +1,15 @@
+footer{
+    background-image: url(../img/footer-background.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.redes-sociales{
+    a{
+        margin: 5px;
+    }
+}
+.hashtag{
+    display: flex;
+    flex-direction: column;
+}
