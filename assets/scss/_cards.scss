@@ -1,5 +1,6 @@
 .card{
     margin:10px;
+    padding: 10px;
 }
 
 .thumbnail { 
@@ -12,13 +13,13 @@
 
 .card-group{
     margin: 5px;
+    .comprar{
+        text-align: center;
+    }
 }
 
 .pagination{
     justify-content:center;
 }
 
-.comprar{
-    text-align: center;
 
-}

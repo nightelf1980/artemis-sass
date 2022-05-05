@@ -63,6 +63,7 @@ footer {
 
 .card {
   margin: 10px;
+  padding: 10px;
 }
 
 .thumbnail {
@@ -77,13 +78,13 @@ footer {
   margin: 5px;
 }
 
+.card-group .comprar {
+  text-align: center;
+}
+
 .pagination {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.comprar {
-  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */
