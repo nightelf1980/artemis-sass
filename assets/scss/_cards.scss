@@ -11,10 +11,22 @@
     position: absolute; 
 }
 
-.card-group{
-    margin: 5px;
-    .comprar{
-        text-align: center;
+.tarjetas{
+    .row{
+        justify-content: center;
+    }
+}
+
+.card{
+    .card-body{
+        margin: 5px;
+        .comprar{
+            text-align: center;
+        }
+
+        .card-text{
+            text-align: justify;
+        }
     }
 
     .card-footer{
@@ -24,6 +36,7 @@
 
 .pagination{
     justify-content:center;
+    margin: 10px;
 }
 
 

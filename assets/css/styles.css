@@ -27,18 +27,22 @@ body {
 .nav-item a:hover {
   background-color: #30C9B3;
   color: #000000;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 h1 {
   text-align: center;
   text-transform: uppercase;
-  margin: 20px 0px;
+  margin: 30px 0px;
 }
 
 h2 {
-  margin: 30px 0px;
+  margin: 20px 0px;
+}
+
+h3 {
+  margin: 15px 0px;
 }
 
 footer {
@@ -74,15 +78,25 @@ footer {
   position: absolute;
 }
 
-.card-group {
+.tarjetas .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card .card-body {
   margin: 5px;
 }
 
-.card-group .comprar {
+.card .card-body .comprar {
   text-align: center;
 }
 
-.card-group .card-footer {
+.card .card-body .card-text {
+  text-align: justify;
+}
+
+.card .card-footer {
   text-align: center;
 }
 
@@ -90,5 +104,6 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 10px;
 }
 /*# sourceMappingURL=styles.css.map */
