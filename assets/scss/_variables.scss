@@ -1,3 +1,18 @@
 $color1: #30C9B3;
 $color2: #000000;
 $color3: #ffffff;
+$barra-movil:(
+    margen:20px,
+    pesofuente:450,
+    texto:uppercase,
+
+);
+
+$barra-desktop:(
+    margen:30px,
+    fijo:sticky,
+    top:0,
+    z:100,
+    pesofuente:450,
+    texto:uppercase,
+);

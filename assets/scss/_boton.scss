@@ -1,0 +1,7 @@
+.boton-ver{
+    @include boton(none,10px 15px,10px);
+}
+
+.boton-comprar{
+    @extend .boton-ver
+}

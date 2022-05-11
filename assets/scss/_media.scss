@@ -1,0 +1,52 @@
+@media screen and (max-width: 576px) {
+    @import "variables";
+    .navbar{
+        margin-bottom: map-get($barra-movil , margen );
+        font-weight: map-get($barra-movil , pesofuente );
+        text-transform: map-get($barra-movil , texto );
+    }
+    
+    .nav-item {
+        a:hover{
+        background-color: $color1;
+        color: $color2;
+        transition: 0.3s;
+        }
+    }
+  
+    .redes-sociales{
+        display: flex;
+    }
+
+    .rrss img{
+        width: 20px;
+    }
+}
+
+@media screen and (min-width: 577px){
+    @import "variables";
+    .navbar{
+        margin-bottom: map-get($barra-desktop , margen);
+        position: map-get($barra-desktop , fijo);
+        top:map-get($barra-desktop , top);
+        z-index: map-get($barra-desktop , z);
+        font-weight: map-get($barra-desktop , pesofuente);
+        text-transform: map-get($barra-desktop , texto);
+    }
+    
+    .nav-item {
+        a:hover{
+        background-color: $color1;
+        color: $color2;
+        transition: 0.3s;
+        }
+    }
+    
+    .redes-sociales{
+        display: flex;
+    }
+
+    .rrss img{
+        width: 25px;
+    }
+}

@@ -53,8 +53,8 @@
         <!--ROW-3 -->
         <div class="row">
             <h1>Plantas de interior, exterior, cactus y suculentas a la venta</h1>
-            <div class="card-group d-flex justify-content-center">
-                <div class="card" style="width: 80%">
+            <div class="col-md-4 col-lg-4">
+                <div class="card">
                     <img src="../assets/img/Delosperma-Lehmannii.jpg" class="card-img-top" alt="Delosperma de Lehman">
                     <div class="card-body">
                         <h5 class="card-title">Delosperma Lehmannii</h5>
@@ -63,12 +63,14 @@
                         <p class="card-text"><img src="../assets/img/sol/sol.png" width="30px" alt=""> Pleno sol</p>
                         <p class="card-text"><img src="../assets/img/temperatura/altas.png" width="30px" alt="">Resiste altas temperaturas</p>
                     </div>
-                    <div class="comprar">
-                        <a href="#" class="btn btn-secondary">Comprar</a>
+                    <div class="card-footer">
+                        <a href="#" class="btn boton-comprar btn-secondary">Comprar</a>
                     </div>
                 </div>
+            </div>
 
-                <div class="card" style="width: 80%">
+            <div class="col-md-4 col-lg-4">
+                <div class="card">
                     <img src="../assets/img/Crassula-tetragona.jpg" class="card-img-top" alt="Crassula tetragona">
                     <div class="card-body">
                         <h5 class="card-title">Crassula tetragona</h5>
@@ -77,12 +79,14 @@
                         <p class="card-text"><img src="../assets/img/sol/medio-sol.png" width="30px" alt="">Pleno sol o semisombra</p>
                         <p class="card-text"><img src="../assets/img/temperatura/medias.png" width="30px" alt="">Heladas cortas y ocasionales</p>
                     </div>
-                    <div class="comprar">
-                        <a href="#" class="btn btn-secondary">Comprar</a>
+                    <div class="card-footer">
+                        <a href="#" class="btn boton-comprar btn-success">¡Éxito en ventas!</a>
                     </div>
                 </div>
+            </div>
 
-                <div class="card" style="width: 80%">
+            <div class="col-md-4 col-lg-4">            
+                <div class="card">
                     <img src="../assets/img/Crassula-arborescens.jpg" class="card-img-top" alt="Crassula arborescens">
                     <div class="card-body">
                         <h5 class="card-title">Crassula arborescens</h5>
@@ -91,8 +95,8 @@
                         <p class="card-text"><img src="../assets/img/sol/medio-sol.png" width="30px" alt="">Semisombra</p>
                         <p class="card-text"><img src="../assets/img/temperatura/medias.png" width="30px" alt="">No resisten heladas</p>
                     </div>
-                    <div class="comprar">
-                        <a href="#" class="btn btn-secondary">Comprar</a>
+                    <div class="card-footer">
+                        <a href="#" class="btn boton-comprar btn-secondary">Comprar</a>
                     </div>
                 </div>
             </div>
@@ -125,19 +129,39 @@
     <footer class="bd-footer py-5 mt-2 bg-light">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-5 col-xs-7 mb-2">
+                <div class="col mb-2">
                     <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" aria-label="Artemis 2022 &copy">
-                        <img src="../assets/img/artemis-logo-color.png" width="40" alt=""><span class="fs-5">ARTEMIS 2022 &copy</span>
+                        <img src="../assets/img/artemis-logo-color.png" width="40" alt=""><span class="fs-5">2022 &copy</span>
                     </a>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-2 mb-2">
+                <div class="col">
                     <div class="redes-sociales">
-                        <a href="https://www.facebook.com" target="_blank"><img class="animate__animated animate__backInUp" src="../assets/img/rrss/facebook.svg" width="25" alt=""></a>
-                        <a href="https://www.instagram.com/jardineria_artemis/" target="_blank"><img class="animate__animated animate__backInUp" src="../assets/img/rrss/instagram.svg" width="25" alt=""></a>
-                        <a href="https://www.pinterest.com" target="_blank"><img class="animate__animated animate__backInUp" src="../assets/img/rrss/pinterest.svg" width="25" alt=""></a>
-                        <a href="https://www.youtube.com" target="_blank"><img class="animate__animated animate__backInUp" src="../assets/img/rrss/youtube.svg" width="25" alt=""></a>
-                        <a href="https://api.whatsapp.com/send?phone=56982433747&text=Hola%2C%20quisiera%20m%C3%A1s%20informaci%C3%B3n." target="_blank"><img class="animate__animated animate__backInUp" src="../assets/img/rrss/whatsapp.svg" width="25" alt=""></a>
-                    </div>    
+                        <a href="https://www.facebook.com" target="_blank">
+                            <div class="rrss">
+                                <img class="animate__animated animate__backInUp" src="../assets/img/rrss/facebook.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/jardineria_artemis/" target="_blank">
+                            <div class="rrss">
+                                <img class="animate__animated animate__backInUp" src="../assets/img/rrss/instagram.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://www.pinterest.com" target="_blank">
+                            <div class="rrss">
+                                <img class="animate__animated animate__backInUp" src="../assets/img/rrss/pinterest.svg" alt="">
+                            </div>
+                            </a>
+                        <a href="https://www.youtube.com" target="_blank">
+                            <div class="rrss">
+                                <img class="animate__animated animate__backInUp" src="../assets/img/rrss/youtube.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=56982433747&text=Hola%2C%20quisiera%20m%C3%A1s%20informaci%C3%B3n." target="_blank">
+                            <div class="rrss">
+                                <img class="animate__animated animate__backInUp" src="../assets/img/rrss/whatsapp.svg" alt="">
+                            </div>    
+                        </a>
+                    </div>
                 </div>
                 <div class="col">
                     <div class="hashtag d-flex">

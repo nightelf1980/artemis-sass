@@ -14,21 +14,52 @@ body {
   text-align: justify;
 }
 
-.navbar {
-  margin-bottom: 30px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  font-weight: 450;
-  text-transform: uppercase;
+@media screen and (max-width: 576px) {
+  .navbar {
+    margin-bottom: 20px;
+    font-weight: 450;
+    text-transform: uppercase;
+  }
+  .nav-item a:hover {
+    background-color: #30C9B3;
+    color: #000000;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .redes-sociales {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .rrss img {
+    width: 20px;
+  }
 }
 
-.nav-item a:hover {
-  background-color: #30C9B3;
-  color: #000000;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+@media screen and (min-width: 577px) {
+  .navbar {
+    margin-bottom: 30px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    font-weight: 450;
+    text-transform: uppercase;
+  }
+  .nav-item a:hover {
+    background-color: #30C9B3;
+    color: #000000;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .redes-sociales {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .rrss img {
+    width: 25px;
+  }
 }
 
 h1 {
@@ -43,6 +74,12 @@ h2 {
 
 h3 {
   margin: 15px 0px;
+}
+
+.boton-ver, .boton-comprar {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
 }
 
 footer {
