@@ -25,14 +25,14 @@ Visualiza el proyecto [aquí](https://nightelf1980.github.io/artemis-sass/)
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Colores del logo | ![#F9C461](https://via.placeholder.com/10/F9C461?text=+) #F9C461 |
-| Colores del logo | ![#FFBD59](https://via.placeholder.com/10/FFBD59?text=+) #FFBD59 |
-| Colores del logo | ![#C9E265](https://via.placeholder.com/10/C9E265?text=+) #C9E265 |
-| Colores del logo | ![#AECD61](https://via.placeholder.com/10/AECD61?text=+) #AECD61 |
-| Colores del logo| ![#97C456](https://via.placeholder.com/10/97C456?text=+) #97C456 |
-| Colores del logo | ![#799946](https://via.placeholder.com/10/799946?text=+) #799946 |
-| Colores del logo | ![#EC5F5D](https://via.placeholder.com/10/EC5F5D?text=+) #EC5F5D |
-| Hover Navbar| ![#30C9B3](https://via.placeholder.com/10/30C9B3?text=+) #30C9B3 |
+| Colores-Logo| ![#F9C461](https://via.placeholder.com/10/F9C461?text=+) #F9C461 |
+| Colores-Logo| ![#FFBD59](https://via.placeholder.com/10/FFBD59?text=+) #FFBD59 |
+| Colores-Logo| ![#C9E265](https://via.placeholder.com/10/C9E265?text=+) #C9E265 |
+| Colores-Logo| ![#AECD61](https://via.placeholder.com/10/AECD61?text=+) #AECD61 |
+| Colores-Logo| ![#97C456](https://via.placeholder.com/10/97C456?text=+) #97C456 |
+| Colores-Logo| ![#799946](https://via.placeholder.com/10/799946?text=+) #799946 |
+| Colores-Logo| ![#EC5F5D](https://via.placeholder.com/10/EC5F5D?text=+) #EC5F5D |
+| Hover-Navbar| ![#30C9B3](https://via.placeholder.com/10/30C9B3?text=+) #30C9B3 |
 | Texto| ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
 
 
