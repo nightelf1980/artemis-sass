@@ -18,8 +18,17 @@
 }
 
 .card{
+
     .card-body{
         margin: 5px;
+        border-radius: 5px;
+        img:hover{
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+            transform: scale(1.01);
+            transition: 0.2s;
+        }
+        
+
         .comprar{
             text-align: center;
         }
@@ -35,6 +44,8 @@
 
     .card-title{
         text-align: center;
+        font-size: 15px;
+        margin-top: 10px;
     }
 }
 
