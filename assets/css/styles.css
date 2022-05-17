@@ -74,6 +74,8 @@ footer {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.225);
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.225);
 }
 
 .redes-sociales a {
@@ -109,9 +111,16 @@ footer {
           justify-content: center;
 }
 
+.card {
+  border-radius: 10px;
+}
+
 .card .card-body {
   margin: 5px;
-  border-radius: 5px;
+}
+
+.card .card-body img {
+  border-radius: 10px;
 }
 
 .card .card-body img:hover {
