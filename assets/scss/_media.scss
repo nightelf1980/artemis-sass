@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
     @import "variables";
     .navbar{
         margin-bottom: map-get($barra-movil , margen );
@@ -19,7 +19,7 @@
     }
 }
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 577px){
     @import "variables";
     .navbar{
         margin-bottom: map-get($barra-desktop , margen);
