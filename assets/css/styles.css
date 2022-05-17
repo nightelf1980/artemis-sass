@@ -14,7 +14,7 @@ body {
   text-align: justify;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .navbar {
     margin-bottom: 20px;
     font-weight: 450;
@@ -26,20 +26,12 @@ body {
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
-  .redes-sociales {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .rrss img {
-    width: 20px;
-  }
   .card-title {
     font-size: 20px !important;
   }
 }
 
-@media screen and (min-width: 577px) {
+@media screen and (min-width: 769px) {
   .navbar {
     margin-bottom: 30px;
     position: -webkit-sticky;
@@ -54,14 +46,6 @@ body {
     color: #000000;
     -webkit-transition: 0.3s;
     transition: 0.3s;
-  }
-  .redes-sociales {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .rrss img {
-    width: 25px;
   }
 }
 

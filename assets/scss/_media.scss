@@ -1,4 +1,4 @@
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
     @import "variables";
     .navbar{
         margin-bottom: map-get($barra-movil , margen );
@@ -13,21 +13,13 @@
         transition: 0.3s;
         }
     }
-  
-    .redes-sociales{
-        display: flex;
-    }
-
-    .rrss img{
-        width: 20px;
-    }
 
     .card-title{
         font-size: 20px !important;
     }
 }
 
-@media screen and (min-width: 577px){
+@media screen and (min-width: 769px){
     @import "variables";
     .navbar{
         margin-bottom: map-get($barra-desktop , margen);
@@ -44,13 +36,5 @@
         color: $color2;
         transition: 0.3s;
         }
-    }
-    
-    .redes-sociales{
-        display: flex;
-    }
-
-    .rrss img{
-        width: 25px;
     }
 }
