@@ -3,14 +3,6 @@
     padding: 10px;
 }
 
-.thumbnail { 
-    position: relative; 
-} 
-
-.caption { 
-    position: absolute; 
-}
-
 .tarjetas{
     .row{
         justify-content: center;
@@ -28,7 +20,7 @@
         }
         img:hover{
             box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
-            transform: scale(1.01);
+            transform: scale(1.02);
             transition: 0.2s;
         }
         .comprar{
